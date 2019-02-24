@@ -1,4 +1,4 @@
-.caption {
+figure figcaption, .caption {
     display:       block;
     font-family:   map-get($font-families, 'caption');
     font-size:     map-get($font-size, small);
