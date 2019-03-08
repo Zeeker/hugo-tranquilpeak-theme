@@ -1,10 +1,13 @@
 .figure {
+    margin: 1.5em 0 0;
+
     &.clear {
         clear: both;
     }
     &.center {
         width:  calc(100% - 4px);
         margin: 2px auto;
+        margin-top: 1.5em;
 
         .fig-img {
             margin: 2px auto;
@@ -13,10 +16,12 @@
     &.left {
         float:  left;
         margin: 2px;
+        margin-top: 1.5em;
     }
     &.right {
         float:  right;
         margin: 2px;
+        margin-top: 1.5em;
     }
     &.fig-20 {
         @extend .left;
@@ -41,6 +46,7 @@
     &.fig-100 {
         width:  calc(100% - 4px);
         margin: 2px;
+        margin-top: 1.5em;
     }
     &.figure--fullWidth {
         width: 100%;
