@@ -6,5 +6,9 @@
       </time>
     {{ end }}
     {{ partial "post/category.html" . }}
+
+    {{ if not (eq .Params.showReadingTime false)  }}
+      <span>({{ .ReadingTime }} min read)</span>
+    {{ end }}
   </div>
 {{ end }}
