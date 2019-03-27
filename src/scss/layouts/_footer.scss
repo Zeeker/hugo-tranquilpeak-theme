@@ -6,3 +6,19 @@
     height:     auto;
     padding:    20px 20px;
 }
+
+footer .legal {
+  margin-bottom: .5rem;
+
+  *::before {
+    content: "·";
+    margin: 0;
+    margin-left: .1em;
+    margin-right: .3em;
+  }
+
+  :first-child::before {
+    content: "";
+    margin: 0;
+  }
+}
